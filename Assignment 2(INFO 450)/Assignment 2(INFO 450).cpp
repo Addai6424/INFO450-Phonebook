@@ -64,7 +64,7 @@ void addentry(char myArray[10][2][50])
 	gets_s(myArray[i][0]);  
 	cout << "please enter number" << endl;
 	gets_s(myArray[i][1]);
-
+    
 	i++;
 }
 void display(char myArray[10][2][50], int numEntered)
